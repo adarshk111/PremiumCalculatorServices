@@ -13,4 +13,9 @@
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\PremiumCalculatorServices.Contracts\PremiumCalculatorServices.Contracts.csproj" />
+    <ProjectReference Include="..\PremiumCalculatorServices.Repository\PremiumCalculatorServices.Repository.csproj" />
+  </ItemGroup>
+
 </Project>

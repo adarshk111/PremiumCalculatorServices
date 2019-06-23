@@ -5,6 +5,19 @@ VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PremiumCalculatorServices", "PremiumCalculatorServices\PremiumCalculatorServices.csproj", "{BDB639E3-BBBB-44CC-BFD1-065D7EA9772B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PremiumCalculatorServices.Repository", "PremiumCalculatorServices.Repository\PremiumCalculatorServices.Repository.csproj", "{D17795BC-C132-4894-89AC-45E446E52000}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0444F9A2-DB0A-4B8A-8632-3B29A342F9AC} = {0444F9A2-DB0A-4B8A-8632-3B29A342F9AC}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PremiumCalculatorServices.Contracts", "PremiumCalculatorServices.Contracts\PremiumCalculatorServices.Contracts.csproj", "{0444F9A2-DB0A-4B8A-8632-3B29A342F9AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PremiumCalculatorServicesDataStore", "PremiumCalculatorServicesDataStore\PremiumCalculatorServicesDataStore.csproj", "{3DF0D3E4-3A80-423F-8BFB-18513837187E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PremiumCalculatorServices.Repository.Tests", "PremiumCalculatorServices.Repository.Tests\PremiumCalculatorServices.Repository.Tests.csproj", "{C17F16E8-EFBB-44A9-9C3A-D7D233FA3BF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PremiumCalculatorServicesTests", "PremiumCalculatorServicesTests\PremiumCalculatorServicesTests.csproj", "{45DFCBE4-AEDA-45A4-86B5-B172F9CB6B47}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +28,26 @@ Global
 		{BDB639E3-BBBB-44CC-BFD1-065D7EA9772B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BDB639E3-BBBB-44CC-BFD1-065D7EA9772B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BDB639E3-BBBB-44CC-BFD1-065D7EA9772B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D17795BC-C132-4894-89AC-45E446E52000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D17795BC-C132-4894-89AC-45E446E52000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D17795BC-C132-4894-89AC-45E446E52000}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D17795BC-C132-4894-89AC-45E446E52000}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0444F9A2-DB0A-4B8A-8632-3B29A342F9AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0444F9A2-DB0A-4B8A-8632-3B29A342F9AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0444F9A2-DB0A-4B8A-8632-3B29A342F9AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0444F9A2-DB0A-4B8A-8632-3B29A342F9AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DF0D3E4-3A80-423F-8BFB-18513837187E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DF0D3E4-3A80-423F-8BFB-18513837187E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DF0D3E4-3A80-423F-8BFB-18513837187E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DF0D3E4-3A80-423F-8BFB-18513837187E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C17F16E8-EFBB-44A9-9C3A-D7D233FA3BF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C17F16E8-EFBB-44A9-9C3A-D7D233FA3BF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C17F16E8-EFBB-44A9-9C3A-D7D233FA3BF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C17F16E8-EFBB-44A9-9C3A-D7D233FA3BF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45DFCBE4-AEDA-45A4-86B5-B172F9CB6B47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45DFCBE4-AEDA-45A4-86B5-B172F9CB6B47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45DFCBE4-AEDA-45A4-86B5-B172F9CB6B47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45DFCBE4-AEDA-45A4-86B5-B172F9CB6B47}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
